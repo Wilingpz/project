@@ -1,0 +1,24 @@
+﻿生成启动时间为 2020/6/22 21:56:27。
+     1>项目“D:\c++实验\cloud_client\cloud_client\cloud_client.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\boost_1_58_0 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cloud_client.cpp
+         cloud_client.cpp
+     1>d:\c++实验\cloud_client\cloud_client\httplib.h(1535): warning C4244: “=”: 从“uint64_t”转换到“size_t”，可能丢失数据
+     1>d:\c++实验\cloud_client\cloud_client\cloud_client.hpp(26): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+     1>d:\c++实验\cloud_client\cloud_client\cloud_client.hpp(135): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\c++实验\cloud_client\cloud_client\httplib.h(936): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+                 d:\c++实验\cloud_client\cloud_client\httplib.h(1844): 参见对正在编译的函数 模板 实例化“bool httplib::detail::read_content<httplib::Request>(httplib::Stream &,T &,uint64_t,bool &,httplib::Progress)”的引用
+                 with
+                 [
+                     T=httplib::Request
+                 ]
+     1>d:\c++实验\cloud_client\cloud_client\httplib.h(940): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+     1>d:\c++实验\cloud_client\cloud_client\cloud_client.hpp(115): warning C4715: “DataManager::InitLoad”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\c++实验\cloud_client\Debug\cloud_client.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\boost_1_58_0\lib32-msvc-12.0" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\c++实验\cloud_client\Debug\cloud_client.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\c++实验\cloud_client\Debug\cloud_client.lib" /MACHINE:X86 Debug\cloud_client.obj
+         cloud_client.vcxproj -> D:\c++实验\cloud_client\Debug\cloud_client.exe
+     1>已完成生成项目“D:\c++实验\cloud_client\cloud_client\cloud_client.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.59
